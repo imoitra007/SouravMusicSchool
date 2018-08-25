@@ -1,0 +1,10 @@
+1. Open Git Bash
+2. Change the directory to your local folder.
+3. Command: git init
+4. Command: git remote add origin https://github.com/imoitra007/SouravMusicSchool.git
+5. Command: git add .
+6. Command: git commit -m "First Commit"
+7. If asked for configure email and username, please do so and then perform step 6 again.
+8. Command: git push orgin master
+9. It may popup a modal for loginId and Password. Please provide/
+10. Project will be uploaded to git repsitory.  
