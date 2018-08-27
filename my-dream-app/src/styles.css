@@ -13,13 +13,41 @@
     margin-left: 10px;
 }
 
-.card-style-1 {
+.card-style-main {
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 2 0px;
     background-color:#fff;
     background: #fff;
     box-shadow: 1px 1px 5px rgba(126,142,159,0.1);
 }
+
+.main-title {
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: 'gothic';
+    color: #02788F
+}
+
+.card-title {
+    font-size: 15px;
+    font-family: Microsoft Sans serif;
+    margin-top: 0px;
+    margin-bottom:15px;
+    color: #02788F;
+    font-weight: 550 !important;
+}
+
+.odd-card {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #E5EBEA;
+    background: #E5EBEA;
+    box-shadow: 1px 1px 5px rgba(126, 142, 159, 0.1);
+}
+
 
 .body-content {    
     padding-left: 0 !important;
@@ -27,3 +55,12 @@
     max-width: 92%;
     margin: 15px 4% 52px 4%;     
 }
+sup {
+    color: #ff0000;
+    font-size: 100%;
+    top: -.4em;
+}
+
+
+
+
