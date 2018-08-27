@@ -20,3 +20,10 @@
     background: #fff;
     box-shadow: 1px 1px 5px rgba(126,142,159,0.1);
 }
+
+.body-content {    
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    max-width: 92%;
+    margin: 15px 4% 52px 4%;     
+}
