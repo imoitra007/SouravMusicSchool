@@ -1,6 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Background color of the screen's content area  */
 .body-color {
     background-color:rgba(223, 223, 223, 1);
+}
+
+/* Width of the content area */
+.body-content {    
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    max-width: 92%;
+    margin: 15px 4% 52px 4%;     
 }
 
 .mt-10 {
@@ -13,6 +23,7 @@
     margin-left: 10px;
 }
 
+/* Card Style - Outer Card */
 .card-style-main {
     padding: 20px;
     margin-bottom: 2 0px;
@@ -21,6 +32,7 @@
     box-shadow: 1px 1px 5px rgba(126,142,159,0.1);
 }
 
+/* Outer Card - Header Text */
 .main-title {
     font-size: 20px;
     padding-bottom: 10px;
@@ -31,6 +43,16 @@
     color: #02788F
 }
 
+/* Card Style - Inner Card */
+.odd-card {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #E5EBEA;
+    background: #E5EBEA;
+    box-shadow: 1px 1px 5px rgba(126, 142, 159, 0.1);
+}
+
+/* Inner Card - Header Text */
 .card-title {
     font-size: 15px;
     font-family: Microsoft Sans serif;
@@ -40,25 +62,11 @@
     font-weight: 550 !important;
 }
 
-.odd-card {
-    padding: 10px;
-    margin-bottom: 15px;
-    background-color: #E5EBEA;
-    background: #E5EBEA;
-    box-shadow: 1px 1px 5px rgba(126, 142, 159, 0.1);
-}
-
-
-.body-content {    
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    max-width: 92%;
-    margin: 15px 4% 52px 4%;     
-}
+/* This tag will be used for creating field mandatory */
 sup {
     color: #ff0000;
     font-size: 100%;
-    top: -.4em;
+    top: -.0em;
 }
 
 
