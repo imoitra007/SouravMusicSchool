@@ -5,6 +5,11 @@
     background-color:rgba(223, 223, 223, 1);
 }
 
+/* This class used to give space between two buttons in a row.  */
+.btn-space {
+    margin-right: 15px;
+}
+
 /* Width of the content area */
 .body-content {    
     padding-left: 0 !important;
