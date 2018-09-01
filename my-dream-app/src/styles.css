@@ -28,6 +28,10 @@
     margin-left: 10px;
 }
 
+.mt-24 {
+    margin-top: 24px;  
+}
+
 /* Card Style - Outer Card */
 .card-style-main {
     padding: 20px;
@@ -74,6 +78,35 @@ sup {
     top: -.0em;
 }
 
+/* Collapse Styles */
+
+.panel-group {
+    margin-bottom: 5px;
+}
+
+    .panel-group .panel-heading {
+        padding: 10px 15px;
+        background: #8e9996;
+    }
+
+        .panel-group .panel-heading .panel-title {
+            color: #10364d;
+            line-height: 18px;
+            font-family: 'gothic';
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .panel-group .panel-heading a:hover, .panel-group .panel-heading a:focus {
+            text-decoration: none;
+        }      
+
+    .panel-group .panel-body {
+        padding: 10px;
+        padding-bottom: 8px;
+    }
+
+/* Collapse Styles End */
 
 
 
