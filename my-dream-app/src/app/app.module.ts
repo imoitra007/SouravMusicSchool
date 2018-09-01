@@ -5,7 +5,8 @@ import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { LoginComponent } from './login/login.component';
 import { ForgetpasswordComponent } from './forgetpassword/forgetpassword.component';
-import { CreateteacherComponent } from './Teacher/createteacher.component';
+import { CreateteacherComponent } from './Teacher/createteacher/createteacher.component';
+import { SearchteacherComponent } from './Teacher/searchteacher/searchteacher.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { CreateteacherComponent } from './Teacher/createteacher.component';
     MenuComponent,
     LoginComponent,
     ForgetpasswordComponent,
-    CreateteacherComponent
+    CreateteacherComponent,
+    SearchteacherComponent
   ],
   imports: [
     BrowserModule
