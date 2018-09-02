@@ -2,11 +2,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { DashboardComponent } from "./dashboard/dashboard.component";
 import { SearchteacherComponent } from './Teacher/searchteacher/searchteacher.component';
 import { CreateteacherComponent } from './Teacher/createteacher/createteacher.component';
-// import { ChoosecertificateComponent } from '../EncodingModule/choosecertificate/choosecertificate.component';
-// import { ValidateQueueNumberComponent } from '../EncodingModule/validate-queue-number/validate-queue-number.component';
-// import { EncodebirthComponent } from '../EncodingModule/encodebirth/encodebirth.component';
-// import { EncodeBirthPreviewComponent } from '../EncodingModule/encode-birth-preview/encode-birth-preview.component';
-
+import { LoginComponent } from './login/login.component';
 
 // const APP_ROUTES: Routes = [
 //   {path: '', redirectTo: 'Home', pathMatch: 'full'},
@@ -25,6 +21,7 @@ import { CreateteacherComponent } from './Teacher/createteacher/createteacher.co
 const APP_ROUTES: Routes = [
     { path: '', redirectTo: 'Dashboard', pathMatch: 'full'},
     { path: 'Dashboard', component: DashboardComponent },
+    { path: 'Login', component: LoginComponent },
     { path: 'SerchTeacher', component: SearchteacherComponent },
     { path: 'CreateTeacher', component: CreateteacherComponent },
     // { path: 'Dashboard', component: DashboardComponent }
