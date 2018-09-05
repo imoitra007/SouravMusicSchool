@@ -3,6 +3,7 @@ import { DashboardComponent } from "./Dashboard/dashboard/dashboard.component";
 import { SearchteacherComponent } from './Teacher/searchteacher/searchteacher.component';
 import { CreateteacherComponent } from './Teacher/createteacher/createteacher.component';
 import { LoginComponent } from './Account/login/login.component';
+import { AuthGuard } from './AuthGuard/authguard';
 
 // const APP_ROUTES: Routes = [
 //   {path: '', redirectTo: 'Home', pathMatch: 'full'},
@@ -23,8 +24,9 @@ const APP_ROUTES: Routes = [
     { path: 'Dashboard', component: DashboardComponent },
     { path: 'Login', component: LoginComponent },
     { path: 'SerchTeacher', component: SearchteacherComponent },
-    { path: 'CreateTeacher', component: CreateteacherComponent },
-    // { path: 'Dashboard', component: DashboardComponent }
+    { path: 'CreateTeacher', component: CreateteacherComponent, canActivate: [AuthGuard] },
+    // otherwise redirect to home
+    { path: '**', redirectTo: '' }
   ];
 
 export const Routing = RouterModule.forRoot(APP_ROUTES);
