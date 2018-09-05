@@ -3,22 +3,24 @@ import { NgModule } from '@angular/core';
 import { Routing } from "./app.routing";
 
 import { AppComponent } from './app.component';
-import { MenuComponent } from './menu/menu.component';
-import { LoginComponent } from './login/login.component';
-import { ForgetpasswordComponent } from './forgetpassword/forgetpassword.component';
+import { MenuComponent } from './Menu/header/menu.component';
+import { LoginComponent } from './Account/login/login.component';
 import { CreateteacherComponent } from './Teacher/createteacher/createteacher.component';
 import { SearchteacherComponent } from './Teacher/searchteacher/searchteacher.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
+import { DashboardComponent } from './Dashboard/dashboard/dashboard.component';
+import { ChangepasswordComponent } from './Account/changepassword/changepassword.component';
+import { ForgetpasswordComponent } from './Account/forgetpassword/forgetpassword.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     LoginComponent,
-    ForgetpasswordComponent,
     CreateteacherComponent,
     SearchteacherComponent,
-    DashboardComponent
+    DashboardComponent,
+    ChangepasswordComponent,
+    ForgetpasswordComponent
   ],
   imports: [
     BrowserModule,

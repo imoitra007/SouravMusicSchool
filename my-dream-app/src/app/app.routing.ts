@@ -1,8 +1,8 @@
 import { RouterModule, Routes } from '@angular/router';
-import { DashboardComponent } from "./dashboard/dashboard.component";
+import { DashboardComponent } from "./Dashboard/dashboard/dashboard.component";
 import { SearchteacherComponent } from './Teacher/searchteacher/searchteacher.component';
 import { CreateteacherComponent } from './Teacher/createteacher/createteacher.component';
-import { LoginComponent } from './login/login.component';
+import { LoginComponent } from './Account/login/login.component';
 
 // const APP_ROUTES: Routes = [
 //   {path: '', redirectTo: 'Home', pathMatch: 'full'},
